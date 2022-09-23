@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1">
+    <link rel="stylesheet" href="./build/tailwind.css">
+    <title>Single Product</title>
+</head>
+<body class="bg-gray-100">
+
+        <!-- app bar -->
+
+        <div class="flex md:hidden items-center justify-between mt-10 px-4 mb-6">
+            <div class="w-7 h-7 bg-white shadow-lg flex items-center justify-center rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+            </div>
+            <div class="text-sm font-bold text-slate-800">گوشی iphone 13 pro max</div>
+            <div class="w-7 h-7 bg-white shadow-lg flex items-center justify-center rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 stroke-slate-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </div>
+        </div>
+
+        <!-- Breadcrumbs  -->
+
+        <div class="flex items-center gap-x-2 px-4 text-sm mb-8">
+            <span class="text-orange-500">تلفن همراه</span>
+            <span>
+                <svg width="7" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m.945 4.2.006-.006.006-.007c.369-.406 1.067-.973 1.831-1.502.763-.53 1.537-.984 2.042-1.187l.01-.004c.067-.029.2-.079.341-.123a1.72 1.72 0 0 1 .3-.071c.13.002.253.031.375.092a.812.812 0 0 1 .33.377c.02.056.057.198.093.363a11.189 11.189 0 0 1 .054.253l.006.034c.1.558.161 1.502.161 2.575 0 1-.057 1.899-.14 2.48a1.34 1.34 0 0 0-.007.034l-.018.087v.002c-.013.07-.031.159-.052.254a4.92 4.92 0 0 1-.099.382.671.671 0 0 1-.012.033l-.004.01a.75.75 0 0 1-.66.424H5.48a.983.983 0 0 1-.155-.031 3.398 3.398 0 0 1-.36-.12l-.226-.095c-.482-.206-1.233-.646-1.978-1.16-.746-.516-1.436-1.07-1.814-1.491L.94 5.794l-.008-.008-.001-.001-.007-.007L.9 5.752a5.486 5.486 0 0 1-.084-.09 2.22 2.22 0 0 1-.164-.195l-.006-.008L.64 5.45a.749.749 0 0 1-.14-.446c0-.185.053-.348.144-.478l.074-.081.039-.044c.058-.065.125-.138.188-.202Z"
+                      stroke="#222F5D"
+                    />
+                  </svg>
+            </span>
+            <span class="text-orange-500">برند آیفون</span>
+            <span>
+                <svg width="7" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="m.945 4.2.006-.006.006-.007c.369-.406 1.067-.973 1.831-1.502.763-.53 1.537-.984 2.042-1.187l.01-.004c.067-.029.2-.079.341-.123a1.72 1.72 0 0 1 .3-.071c.13.002.253.031.375.092a.812.812 0 0 1 .33.377c.02.056.057.198.093.363a11.189 11.189 0 0 1 .054.253l.006.034c.1.558.161 1.502.161 2.575 0 1-.057 1.899-.14 2.48a1.34 1.34 0 0 0-.007.034l-.018.087v.002c-.013.07-.031.159-.052.254a4.92 4.92 0 0 1-.099.382.671.671 0 0 1-.012.033l-.004.01a.75.75 0 0 1-.66.424H5.48a.983.983 0 0 1-.155-.031 3.398 3.398 0 0 1-.36-.12l-.226-.095c-.482-.206-1.233-.646-1.978-1.16-.746-.516-1.436-1.07-1.814-1.491L.94 5.794l-.008-.008-.001-.001-.007-.007L.9 5.752a5.486 5.486 0 0 1-.084-.09 2.22 2.22 0 0 1-.164-.195l-.006-.008L.64 5.45a.749.749 0 0 1-.14-.446c0-.185.053-.348.144-.478l.074-.081.039-.044c.058-.065.125-.138.188-.202Z"
+                      stroke="#222F5D"
+                    />
+                  </svg>
+            </span>
+            <span class="text-gray-500">آیفون 13</span>
+        </div>
+
+        <!-- single product -->
+
+        <div class="px-4 flex flex-col items-center gap-y-9">
+            <div class="w-4/5 max-w-xs">
+                <img class="w-full h-auto" src="/assets/images/iphone-13.png" alt="iphone 13">
+            </div>
+            <div class="mb-8 text-center">
+                <h1 class="text-slate-800 font-bold text-lg mb-1">گوشی iphone 13 pro max</h1>
+                <h2 class="font-thin text-gray-500">Apple Iphone 13 256 GB</h2>
+            </div>
+
+            <!-- color selection -->    <!-- Alpinejs -->
+
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+            <div class="flex items-center justify-evenly w-full mb-5">
+                <span class="text-slate-800 text-sm md:text-base">انتخاب رنگ</span>
+                <div x-data="{ color: 'red'}" class="flex items-center">
+                    <div @click="color = 'red'" :class="color === 'red' ? 'ring-2 ring-red-400' : ''" class="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center rounded-full cursor-pointer bg-red-400 border-2 border-white">
+                            <svg x-show="color === 'red'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 stroke-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                            </svg>                          
+                    </div>
+                    <div @click="color = 'blue'" :class="color === 'blue' ? 'ring-2 ring-blue-400' : ''" class="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center rounded-full cursor-pointer bg-blue-400 border-2 border-white -mr-1">
+                        <svg x-show="color === 'blue'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg> 
+                    </div>
+                    <div @click="color = 'green'" :class="color === 'green' ? 'ring-2 ring-green-400' : ''" class="w-6 h-6 sm:w-8 sm:h-8 flex items-center justify-center rounded-full cursor-pointer bg-green-400 border-2 border-white -mr-1">
+                        <svg x-show="color === 'green'" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 sm:w-6 sm:h-6 stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                        </svg>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    <!-- Alpinejs -->
+
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+</html>
